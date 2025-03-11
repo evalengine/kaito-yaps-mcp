@@ -1,5 +1,7 @@
 # Kaito Yaps MCP
 
+> This is unofficial implementation of Kaito Yaps API for Model Context Protocol (MCP).
+
 This tool enables Claude AI to interact with the Kaito Yaps API for retrieving tokenized attention scores for Twitter/X users.
 
 Introduction to MCP: https://modelcontextprotocol.io/quickstart
