@@ -66,3 +66,5 @@ The API returns various time-based metrics:
 
 The default rate limit is 100 calls every 5 minutes. For additional needs, contact Kaito AI.
 
+## License
+MIT
