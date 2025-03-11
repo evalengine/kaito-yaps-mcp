@@ -116,7 +116,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         
         if (axios.isAxiosError(error)) {
             const message = error.response?.data?.message || error.message;
-            throw new Error(`Kaito Yaps API error: ${message}`);
+            const errorCode = error.response?.data?.error_code || "unknown";
+            throw new Error(`Kaito Yaps API error: [${errorCode}] ${message}`);
         }
         
         throw error;
