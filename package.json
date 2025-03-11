@@ -1,7 +1,8 @@
 {
+  "name": "kaito-yaps-mcp",
   "type": "module",
   "bin": {
-    "chromia-mcp": "./build/index.js"
+    "kaito-yaps-mcp": "./build/index.js"
   },
   "scripts": {
     "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\""
@@ -10,14 +11,9 @@
     "build"
   ],
   "dependencies": {
-    "@ai-sdk/openai": "^1.0.10",
-    "@chromia/ft4": "^1.0.1",
-    "@goat-sdk/adapter-vercel-ai": "^0.2.0",
-    "@goat-sdk/wallet-chromia": "^0.2.1",
     "@modelcontextprotocol/sdk": "^1.0.4",
-    "ai": "^4.0.20",
+    "axios": "^1.8.2",
     "dotenv": "^16.4.7",
-    "postchain-client": "^1.20.1",
     "zod": "^3.24.1"
   },
   "devDependencies": {
